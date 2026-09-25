@@ -3,124 +3,132 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy — Social Publishing Automation</title>
+<title>Social Publishing Automation — Desktop publishing tool</title>
+<link rel="icon" href="./assets/app-icon-1024.png">
 <style>
-  :root{--fg:#111;--muted:#555;--line:#e2e2e2;--bg:#fff}
+  :root{--fg:#111;--muted:#5a5a5a;--line:#e4e4e4;--bg:#fff;--accent:#2b2bd0}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);
        font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 96px}
-  h1{font-size:30px;line-height:1.25;margin:0 0 6px;letter-spacing:-.02em}
-  .sub{color:var(--muted);font-size:14px;margin:0 0 40px}
-  h2{font-size:18px;margin:40px 0 10px;letter-spacing:-.01em}
-  p,li{color:#1c1c1c}
-  ul{padding-left:22px}
-  li{margin:6px 0}
-  hr{border:0;border-top:1px solid var(--line);margin:44px 0}
-  a{color:#0b62d0}
-  footer{color:var(--muted);font-size:13px}
-  code{background:#f4f4f4;padding:1px 5px;border-radius:4px;font-size:14px}
+  header{border-bottom:1px solid var(--line)}
+  .nav{max-width:960px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;gap:28px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;letter-spacing:-.01em}
+  .brand img{width:34px;height:34px;border-radius:8px;display:block}
+  .nav a{color:var(--fg);text-decoration:none;font-size:14.5px}
+  .nav a:hover{color:var(--accent)}
+  .nav .spacer{flex:1}
+  main{max-width:960px;margin:0 auto;padding:0 24px}
+  .hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+  h1{font-size:40px;line-height:1.15;letter-spacing:-.025em;margin:0 0 14px;max-width:20ch}
+  .lede{font-size:19px;color:var(--muted);max-width:56ch;margin:0 0 28px}
+  .cta{display:inline-block;background:var(--fg);color:#fff;text-decoration:none;
+       padding:12px 20px;border-radius:9px;font-size:15px;font-weight:550}
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:24px;letter-spacing:-.02em;margin:0 0 8px}
+  h3{font-size:16px;margin:26px 0 6px}
+  p{max-width:66ch;margin:0 0 14px}
+  p.muted,li.muted{color:var(--muted)}
+  ol,ul{padding-left:22px;max-width:66ch}
+  li{margin:8px 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-top:26px}
+  .card{border:1px solid var(--line);border-radius:10px;padding:20px}
+  .card h3{margin:0 0 6px;font-size:15px}
+  .card p{font-size:14.5px;color:var(--muted);margin:0}
+  footer{max-width:960px;margin:0 auto;padding:36px 24px 64px;color:var(--muted);font-size:13.5px}
+  footer a{color:var(--muted);text-decoration:none;margin-right:18px}
+  footer a:hover{color:var(--fg)}
 </style>
 </head>
 <body>
-<div class="wrap">
 
-  <h1>Privacy Policy</h1>
-  <p class="sub">Social Publishing Automation &middot; Last updated: 25 September 2026</p>
+<header>
+  <nav class="nav">
+    <span class="brand"><img src="./assets/app-icon-1024.png" alt="">Social Publishing Automation</span>
+    <span class="spacer"></span>
+    <a href="./">Home</a>
+    <a href="./how-it-works/">How it works</a>
+    <a href="./privacy/">Privacy Policy</a>
+    <a href="./terms/">Terms of Service</a>
+  </nav>
+</header>
 
-  <nav style="font-size:14px;margin:0 0 28px"><a href="terms/">Terms of Service</a></nav>
+<main>
 
-  <p>
-    This policy explains how the <strong>Social Publishing Automation</strong> tool
-    (&ldquo;the App&rdquo;) handles information. The App is a private, self-hosted
-    publishing tool operated by a single individual to publish their own video
-    content to their own social media accounts. It is not offered as a service to
-    the public and has no other users.
-  </p>
+  <div class="hero">
+    <h1>Publish your own video content, on a schedule.</h1>
+    <p class="lede">
+      Social Publishing Automation is a desktop tool for creators who publish their own
+      original video content. It connects to your own social accounts, queues your own
+      video files, and publishes them to the platforms you choose &mdash; TikTok, Instagram,
+      Facebook and YouTube.
+    </p>
+    <a class="cta" href="./how-it-works/">See how it works</a>
+  </div>
 
-  <h2>1. Who we are</h2>
-  <p>
-    The App is operated by an individual creator for personal use. Contact:
-    <a href="mailto:smuglepug@gmail.com">smuglepug@gmail.com</a>.
-  </p>
+  <section>
+    <h2>What it does</h2>
+    <p>
+      The tool exists to remove the repetitive part of publishing: choosing a file,
+      writing a caption, opening each platform, and uploading the same video four times.
+      You supply the content and the schedule; the tool handles the sending.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Your own accounts only</h3>
+        <p>It publishes to accounts you own and explicitly connect. It never accesses anyone else&rsquo;s account.</p>
+      </div>
+      <div class="card">
+        <h3>Your own content only</h3>
+        <p>Every file is one you created or have the rights to. Nothing is generated from or uploaded on behalf of third parties.</p>
+      </div>
+      <div class="card">
+        <h3>You approve before it goes live</h3>
+        <p>Uploads can be delivered as drafts so you review and publish them yourself in the app.</p>
+      </div>
+      <div class="card">
+        <h3>Runs on your own machine</h3>
+        <p>Credentials and video files stay on your computer. Nothing is stored on a third-party server.</p>
+      </div>
+    </div>
+  </section>
 
-  <h2>2. What information the App accesses</h2>
-  <p>When you connect a social media account to the App, it accesses only:</p>
-  <ul>
-    <li><strong>Account authorisation tokens</strong> issued by the platform you connect
-        (for example TikTok), which allow the App to publish content on your behalf.</li>
-    <li><strong>Basic account identifiers</strong> returned by the platform, such as an
-        account ID or display name, used to confirm the App is posting to the correct
-        account.</li>
-    <li><strong>Content you publish through the App</strong>, meaning the video files and
-        accompanying titles, descriptions and tags that you choose to upload.</li>
-  </ul>
-  <p>
-    The App does not collect analytics, does not access your followers, messages,
-    contacts, or viewing history, and does not obtain your platform password.
-  </p>
+  <section>
+    <h2>Supported platforms</h2>
+    <ul>
+      <li><strong>TikTok</strong> &mdash; via the official Content Posting API and Login Kit</li>
+      <li><strong>Instagram</strong> &mdash; via the Meta Graph API content publishing endpoints</li>
+      <li><strong>Facebook</strong> &mdash; via the Meta Graph API video publishing endpoints</li>
+      <li><strong>YouTube</strong> &mdash; via the YouTube Data API v3</li>
+    </ul>
+    <p class="muted">
+      Each integration uses that platform&rsquo;s own official API and that platform&rsquo;s own
+      authorisation flow. You sign in directly with the platform; this tool never asks for
+      your password.
+    </p>
+  </section>
 
-  <h2>3. How information is used</h2>
-  <ul>
-    <li>Authorisation tokens are used solely to upload and publish your content to your
-        own connected accounts.</li>
-    <li>Account identifiers are used solely to verify the destination account before
-        publishing.</li>
-    <li>Content is transmitted only to the platform you direct it to.</li>
-  </ul>
-  <p>
-    Information is never used for advertising, profiling, marketing, or any purpose
-    beyond publishing your own content to your own accounts.
-  </p>
+  <section>
+    <h2>Who it is for</h2>
+    <p>
+      It is a personal tool, operated by a single creator for their own channels. It is not
+      offered as a hosted service to the public. If you are looking for a team publishing
+      platform, this is not that product.
+    </p>
+    <p>
+      Read <a href="./how-it-works/">how it works</a>, or the
+      <a href="./privacy/">Privacy Policy</a> and <a href="./terms/">Terms of Service</a>.
+    </p>
+  </section>
 
-  <h2>4. What we do not do</h2>
-  <ul>
-    <li>We do not sell, rent, or share your information with third parties.</li>
-    <li>We do not use your information to train machine learning models.</li>
-    <li>We do not transfer your information to advertisers or data brokers.</li>
-    <li>We do not post content that you did not explicitly direct the App to post.</li>
-  </ul>
+</main>
 
-  <h2>5. Where information is stored</h2>
-  <p>
-    Authorisation tokens and content files are stored locally on the operator&rsquo;s own
-    computer, on the operator&rsquo;s own storage. They are not uploaded to any third-party
-    server, cloud service, or database operated by us. Transmission to a platform occurs
-    directly between the operator&rsquo;s computer and that platform&rsquo;s official API over
-    an encrypted connection.
-  </p>
+<footer>
+  <a href="./">Home</a>
+  <a href="./how-it-works/">How it works</a>
+  <a href="./privacy/">Privacy Policy</a>
+  <a href="./terms/">Terms of Service</a>
+  <div style="margin-top:14px">Social Publishing Automation &middot; personal, non-commercial publishing tool.</div>
+</footer>
 
-  <h2>6. Data retention and deletion</h2>
-  <p>
-    Tokens are retained only while the connected account remains linked to the App.
-    You may revoke access at any time from your account settings on the relevant
-    platform, or by deleting the stored credential file on the operator&rsquo;s computer.
-    Revoking access immediately ends the App&rsquo;s ability to publish. To request deletion
-    of any stored credential, contact the address in section&nbsp;1.
-  </p>
-
-  <h2>7. Third-party platforms</h2>
-  <p>
-    Content published through the App becomes subject to the terms and privacy policies
-    of the destination platform (for example TikTok, Meta, or YouTube). This policy does
-    not govern those platforms&rsquo; own handling of your information.
-  </p>
-
-  <h2>8. Children</h2>
-  <p>
-    The App is not intended for, and is not made available to, anyone under the age of 13.
-  </p>
-
-  <h2>9. Changes to this policy</h2>
-  <p>
-    This policy may be updated to reflect changes in the App. The &ldquo;Last updated&rdquo; date
-    above will be revised accordingly.
-  </p>
-
-  <hr>
-  <footer>
-    Social Publishing Automation &middot; personal, non-commercial publishing tool.
-  </footer>
-</div>
 </body>
 </html>
